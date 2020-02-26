@@ -36,8 +36,9 @@ private:
     void AddAllTokensToElement(std::string tokenID, tokenlist &tokens, T &element);
 
 public:
-    // constructor / destructor
+    // default constructor 
     ChatLogic();
+    // destructor
     ~ChatLogic();
 
     // getter / setter
